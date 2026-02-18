@@ -13,6 +13,7 @@ default-run = "webapp-cli"
 loco-rs = { version = "0.16" }
 
 [dependencies]
+rocket = { version = "0.5.1", features = ["json"] }
 loco-rs = { workspace = true  }
 serde = { version = "1", features = ["derive"] }
 serde_json = { version = "1" }
